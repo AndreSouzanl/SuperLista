@@ -40,10 +40,10 @@ Em telas específicas (como o resumo de compras concluídas), pode-se utilizar u
 
 ## 🖼 Telas do Aplicativo
 
-<p align="center">
-  <img src="./assets/des_telas/Login.png" alt="Tela de Login" width="250" style="border:1px solid #000; border-radius:8px; margin:10px"/>
-  <img src="./assets/des_telas/Tela de Cadastro de Produtos.png" alt="Tela Cadastro" width="250" style="border:1px solid #000; border-radius:8px; margin:10px"/>
-  <img src="./assets/des_telas/Lista de Produtos.png" alt="Tela Lista" width="250" style="border:1px solid #000; border-radius:8px; margin:10px"/>
+<p align="left">
+  <img src="./assets/des_telas/Login.png" alt="Tela de Login" width="250" style="border:2px solid #000; border-radius:8px; margin:10px"/>
+  <img src="./assets/des_telas/Tela de Cadastro de Produtos.png" alt="Tela Cadastro" width="250" style="border:2px solid #000; border-radius:8px; margin:10px"/>
+  <img src="./assets/des_telas/Lista de Produtos.png" alt="Tela Lista" width="250" style="border:2px solid #000; border-radius:8px; margin:10px"/>
 </p>
 
 
