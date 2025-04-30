@@ -38,9 +38,6 @@ Em telas específicas (como o resumo de compras concluídas), pode-se utilizar u
 - **Banco de Dados:** SQLite / Firebase Firestore
 - **Outros Recursos:** Notificações locais para lembretes de compras.
 
-![Tela de Login](./assets/des_telas/Login.png);
-![Tela Cadastro](./assets/des_telas/Tela%20de%20Cadastro%20de%20Produtos.png);
-![Tela Lista Produtos](./assets/des_telas/Lista%20de%20Produtos.png);
 
 
 ## 📈 Roadmap Futuro
