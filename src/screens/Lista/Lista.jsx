@@ -1,9 +1,10 @@
 import { View, Text } from "react-native";
+import { styles } from "../../styles/styles";
 
 export default function Lista() {
   return (
-    <View>
-      <Text>Lista</Text>
+    <View style={styles.container}>
+      <Text style={styles.texto}>Lista</Text>
     </View>
   );
 }
