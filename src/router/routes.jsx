@@ -9,7 +9,7 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen  name="Bem vindo ao SuperLista" component={Login} />
+        <Tab.Screen  name="Tela de Login" component={Login} />
         <Tab.Screen name="Cadastre seus Produtos" component={Cadastro} />
         <Tab.Screen name="Lista de Compras do Mês" component={Lista} />
       </Tab.Navigator>
