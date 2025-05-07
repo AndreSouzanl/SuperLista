@@ -29,30 +29,30 @@ export const styles = {
   },
   containerFormLoginGroupInput: {
     borderWidth: 1,
-    borderColor: "#ccc",
-    padding: 10,
+    borderColor: "#A5D6A7",
+    padding: 15,
     borderRadius: 5,
   },
   //termina container Form Login
   // container secondaryActions
   secondaryActions: {
     marginTop: 5,
-    alignItems: 'center',
+    alignItems: "center",
   },
-  
+
   registerContainer: {
-    flexDirection: 'row',
+    flexDirection: "row",
     marginTop: 16,
   },
   registerLink: {
-    color: '#A5D6A7',
-    fontWeight: 'bold',
+    color: "#A5D6A7",
+    fontWeight: "bold",
   },
   link: {
-    color: '#A5D6A7',
-    textAlign: 'center',
+    color: "#A5D6A7",
+    textAlign: "center",
     marginTop: 12,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   // img:{
   //   width: 150,
@@ -61,4 +61,6 @@ export const styles = {
   //   marginBottom: 20,
   //   marginTop: 20,
   // }
+  
+ 
 };
