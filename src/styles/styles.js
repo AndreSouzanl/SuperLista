@@ -1,84 +1,64 @@
 export const styles = {
   container: {
+    flex: 1,
     padding: "10",
     alignItems: "center",
+    backgroundColor: "#f9f9f9",
   },
-  texto: {
+  //container Form Login
+  titulo: {
     color: "black",
     fontSize: 30,
     padding: 10,
   },
-  img: {
-    width: 140,
-    height: 140,
-    marginBottom: 10,
-    marginTop: 20,
-    borderRadius: 10,
-  },
-  input: {
-    marginBottom: 10,
-    color: "#000",
-    borderWidth: 1, // espessura da borda
-    borderColor: "#000", // cor da borda
-    borderStyle: "solid",
-    borderRadius: 10, // borda arredondada
-    padding: 10, // espaçamento interno
-  },
-
-  lista: {
-    marginTop: 20,
-  },
-
-  containerInput: {
-    padding: "10",
+  containerFormLogin: {
     width: "100%",
-  },
-  label: {
-    color: "#000",
-    fontSize: 16,
-    marginBottom: 10,
-  },
-  botao: {
-    alignItems: "center",
-    justifyContent: "center",
-    width: "100%",
-    backgroundColor: "#4CAF50",
-    padding: 15,
-    borderRadius: 10,
-    marginTop: 10,
-  },
-  textoBotao: {
-    color: "#fff",
-    fontSize: 16,
-  },
-  botoes: {
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  botoesEstilos: {
-    color: "#000",
-    fontSize: 16,
     padding: 10,
-    color: "#000",
-    marginBottom: 40,
-    width: "100%",
+    borderRadius: 10,
+    marginBottom: 10,
+    marginTop: 20,
   },
-  corFundo: {
-    color: "#fff",
-    textAlign: "center",
-    fontSize: 16,
+  containerFormLoginGroup: {
+    marginBottom: 16,
+    padding: 10,
   },
-  corFundo: {
-    color: "#fff",
-    textAlign: "center",
-    fontSize: 16,
-  },
-  corFundo: {
-    backgroundColor: "#A5D6A7",
-    color: "#fff",
-    textAlign: "center",
+  containerFormLoginGroupLabel: {
     fontSize: 16,
     fontWeight: "bold",
-     width: "100%",
+    marginBottom: 10,
   },
+  containerFormLoginGroupInput: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    padding: 10,
+    borderRadius: 5,
+  },
+  //termina container Form Login
+  // container secondaryActions
+  secondaryActions: {
+    marginTop: 5,
+    alignItems: 'center',
+  },
+  
+  registerContainer: {
+    flexDirection: 'row',
+    marginTop: 16,
+  },
+  registerLink: {
+    color: '#A5D6A7',
+    fontWeight: 'bold',
+  },
+  link: {
+    color: '#A5D6A7',
+    textAlign: 'center',
+    marginTop: 12,
+    fontWeight: 'bold',
+  },
+  // img:{
+  //   width: 150,
+  //   height: 150,
+  //   borderRadius: 100,
+  //   marginBottom: 20,
+  //   marginTop: 20,
+  // }
 };
