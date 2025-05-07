@@ -8,7 +8,7 @@ const Tab = createBottomTabNavigator();
 export default function Routes() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
+      <Tab.Navigator >
         <Tab.Screen  name="Tela de Login" component={Login} />
         <Tab.Screen name="Cadastre seus Produtos" component={Cadastro} />
         <Tab.Screen name="Lista de Compras do Mês" component={Lista} />

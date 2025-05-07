@@ -11,21 +11,30 @@ export default function Login() {
     <View style={styles.container}>
       <Text style={styles.titulo}>Super Lista</Text>
 
-      {/* <Image style={styles.img} source={require("../../../assets/des_telas/logo.jpg")} /> */}
+      <View>
+        <MaterialIcons name="shopping-cart" size={140} color="#A8A8A8" />
+      </View>
 
       <View style={styles.containerFormLogin}>
         <View style={styles.containerFormLoginGroup}>
           <Text style={styles.containerFormLoginGroupLabel}>Email</Text>
-
-          <TextInput
-            keyboardType="email-address"
-            style={styles.containerFormLoginGroupInput}
-            placeholder="Digite seu usuario"
-          />
+          <View style={{ position: "relative" }}>
+            <TextInput
+              keyboardType="email-address"
+              style={styles.containerFormLoginGroupInput}
+              placeholder="Digite seu email"
+            />
+            <MaterialIcons
+              name="email"
+              size={20}
+              color="black"
+              style={{ position: "absolute", top: 12, right: 10, padding: 10 }}
+            />
+          </View>
         </View>
         <View style={styles.containerFormLoginGroup}>
           <Text style={styles.containerFormLoginGroupLabel}>Senha</Text>
-          
+
           <View style={{ position: "relative" }}>
             <TextInput
               style={styles.containerFormLoginGroupInput}
@@ -41,7 +50,6 @@ export default function Login() {
                 top: 12,
                 right: 10,
                 padding: 10,
-                zIndex: 10,
               }}
             >
               <MaterialIcons

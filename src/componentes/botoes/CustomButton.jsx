@@ -1,4 +1,3 @@
-// src/components/CustomButton.js
 import React from "react";
 import { TouchableOpacity, Text } from "react-native";
 import { styles } from "../../componentes/botoes/styles.js";

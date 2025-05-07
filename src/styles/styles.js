@@ -28,8 +28,8 @@ export const styles = {
     marginBottom: 10,
   },
   containerFormLoginGroupInput: {
-    borderWidth: 1,
-    borderColor: "#A5D6A7",
+    borderBottomWidth: 1,
+    borderColor: "#ccc",
     padding: 15,
     borderRadius: 5,
   },
@@ -54,13 +54,8 @@ export const styles = {
     marginTop: 12,
     fontWeight: "bold",
   },
-  // img:{
-  //   width: 150,
-  //   height: 150,
-  //   borderRadius: 100,
-  //   marginBottom: 20,
-  //   marginTop: 20,
-  // }
+  
+ 
   
  
 };
