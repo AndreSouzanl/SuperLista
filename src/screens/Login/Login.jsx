@@ -1,12 +1,37 @@
-import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  Image,
+  Alert,
+} from "react-native";
 import { styles } from "../../styles/styles";
 import CustomButton from "../../componentes/botoes/CustomButton";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useState } from "react";
 
-export default function Login() {
+
+export default function Login(props) {
   const [senhaVisivel, setSenhaVisivel] = useState(false);
   const [senha, setSenha] = useState("");
+  const [email, setEmail] = useState("");
+
+  function handleLogin() {
+    if (email === "" && senha === "") {
+      Alert.alert("Preencha todos os campos");
+      return;
+    }
+
+    if (email === "Andre" && senha === "629730als") {
+      props.navigation.navigate("Cadastre seus Produtos");
+    } else {
+      Alert.alert("Email ou senha incorretos");
+    }
+
+    setEmail("");
+    setSenha("");
+  }
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>Super Lista</Text>
@@ -23,6 +48,8 @@ export default function Login() {
               keyboardType="email-address"
               style={styles.containerFormLoginGroupInput}
               placeholder="Digite seu email"
+              value={email}
+              onChangeText={setEmail}
             />
             <MaterialIcons
               name="email"
@@ -63,18 +90,20 @@ export default function Login() {
 
         <CustomButton
           title={"Entrar"}
-          onPress={() => {}}
+          onPress={handleLogin}
           backgroundColor="#007BFF"
           textColor="#FFFFFF"
         />
       </View>
+      
       <View style={styles.secondaryActions}>
         <TouchableOpacity onPress={() => {}}>
           <Text style={styles.link}>Esqueci minha senha</Text>
         </TouchableOpacity>
+        
         <View style={styles.registerContainer}>
           <Text>Ainda não tem conta?</Text>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity onPress={() => props.navigation.navigate("Login Cadastro")}>
             <Text style={styles.registerLink}> Cadastre-se</Text>
           </TouchableOpacity>
         </View>
@@ -82,3 +111,5 @@ export default function Login() {
     </View>
   );
 }
+//fazer tela de cadastro
+//fazer tela de esqueci minha senha

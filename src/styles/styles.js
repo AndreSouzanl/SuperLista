@@ -13,14 +13,14 @@ export const styles = {
   },
   containerFormLogin: {
     width: "100%",
-    padding: 10,
+    padding: 5,
     borderRadius: 10,
-    marginBottom: 10,
-    marginTop: 20,
+    marginBottom: 5,
+    marginTop: 10,
   },
   containerFormLoginGroup: {
     marginBottom: 16,
-    padding: 10,
+    padding: 5,
   },
   containerFormLoginGroupLabel: {
     fontSize: 16,
